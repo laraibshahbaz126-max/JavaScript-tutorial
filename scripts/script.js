@@ -1,4 +1,4 @@
-alert("Hello World! hoe");
+alert("Hello World!");
 
 console.log("Code is running...")
 console.log("Code is also running...")
@@ -19,4 +19,4 @@ console.log("Code is looking like a wow...")
 
 
 document.title = " hey i am good"
-document.body.style.backgroundColor = "pink"
+document.body.style.backgroundColor = "red"
