@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container red bg-green">
+     <div class="box" data-createdby="laraib" data-conceptby="harry">this is a box</div>
+     <div class="box1" data-createdby="laraib" data-conceptby="harry">this is a new  box</div>
+    </div>
+    <script>
+    // let div = document .createElement("div");
+    // div.className = "box";
+    // div.setAttribute("data-createdby", "laraib");
+    // div.setAttribute("data-conceptby", "harry");
+    // div.innerHTML = "this is a new div";
+    // document.querySelector('.container').replaceWith(div);
+// let cont = document.querySelector('.container');
+// cont.insertAdjacentHTML('beforebegin', "today,i am going to learn javascript");
+
+let box = document.querySelector('.box1');
+let div = document.createElement('div');
+div.className = 'box1';
+div.innerHTML = 'this is a new div';
+box.insertAdjacentElement('afterbegin', div);
+
+    </script>
+</body>
+</html>
